@@ -1,0 +1,72 @@
+body {
+    background: #dcdcdc;
+    font-family: Arial, sans-serif;
+}
+
+.ventana {
+    width: 600px;
+    margin: 50px auto;
+    border: 2px solid #333;
+    background: #f4f4f4;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.barra-superior {
+    background: #000;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.contenido {
+    padding: 15px;
+}
+
+h2 {
+    text-align: center;
+    background: linear-gradient(#5c8db8, #2c5f87);
+    color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 8px;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+    color: #003366;
+}
+
+input, select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #888;
+    background: #fff;
+}
+
+.botones {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.btn {
+    padding: 5px 15px;
+    border: 1px solid #333;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.aceptar {
+    background: #2f6fa3;
+    color: white;
+}
+
+.cancelar {
+    background: #888;
+    color: white;
+}
